@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: edu.coursera.concurrent.ListSetTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 942.291 sec <<< FAILURE! - in edu.coursera.concurrent.ListSetTest
+testCoarseGrainedLockingRandomLarge(edu.coursera.concurrent.ListSetTest)  Time elapsed: 377.937 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: Expected contains throughput to remain similar (at least 0.700000x) with locks, but found 0.682251x
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at edu.coursera.concurrent.ListSetTest.testCoarseGrainedLockingHelper(ListSetTest.java:177)
+	at edu.coursera.concurrent.ListSetTest.testCoarseGrainedLockingRandomLarge(ListSetTest.java:52)
+
+testCoarseGrainedLockingRepeatingLarge(edu.coursera.concurrent.ListSetTest)  Time elapsed: 84.327 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: Expected remove throughput to remain similar (at least 0.600000x) with locks, but found 0.425216x
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at edu.coursera.concurrent.ListSetTest.testCoarseGrainedLockingHelper(ListSetTest.java:182)
+	at edu.coursera.concurrent.ListSetTest.testCoarseGrainedLockingRepeatingLarge(ListSetTest.java:69)
+
+testReadWriteLocksRepeatingLarge(edu.coursera.concurrent.ListSetTest)  Time elapsed: 71.006 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: Expected remove throughput improvement to be at least 0.500000x with read-write locks, but found 0.186800x
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at edu.coursera.concurrent.ListSetTest.testReadWriteLocksHelper(ListSetTest.java:229)
+	at edu.coursera.concurrent.ListSetTest.testReadWriteLocksRepeatingLarge(ListSetTest.java:117)
+
+testReadWriteLocksRepeatingSmall(edu.coursera.concurrent.ListSetTest)  Time elapsed: 37.342 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: Expected remove throughput improvement to be at least 0.400000x with read-write locks, but found 0.251959x
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at edu.coursera.concurrent.ListSetTest.testReadWriteLocksHelper(ListSetTest.java:229)
+	at edu.coursera.concurrent.ListSetTest.testReadWriteLocksRepeatingSmall(ListSetTest.java:133)
+

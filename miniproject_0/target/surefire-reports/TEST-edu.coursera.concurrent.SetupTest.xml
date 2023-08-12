@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="edu.coursera.concurrent.SetupTest" time="0.014" tests="1" errors="0" skipped="0" failures="0">
+<testsuite name="edu.coursera.concurrent.SetupTest" time="0.017" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2023.1.3"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="19.0.1+10"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-19-openjdk-19.0.1.0.10-2.rolling.fc35.x86_64/lib"/>
-    <property name="maven.multiModuleProjectDirectory" value="/home/psi/Documents/Java Project/Concurrency/miniproject_0"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/psi/Documents/Java Project/Java-Concurrency/miniproject_0"/>
     <property name="java.vm.vendor" value="Red Hat, Inc."/>
     <property name="java.vendor.url" value="https://www.redhat.com/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -14,7 +14,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/home/psi/Documents/Java Project/Concurrency/miniproject_0"/>
+    <property name="user.dir" value="/home/psi/Documents/Java Project/Java-Concurrency/miniproject_0"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="java.runtime.version" value="19.0.1+10"/>
     <property name="os.arch" value="amd64"/>
@@ -62,5 +62,5 @@
     <property name="java.vendor.version" value="(Red_Hat-19.0.1.0.10-2.rolling.fc35)"/>
     <property name="sun.stdout.encoding" value="UTF-8"/>
   </properties>
-  <testcase name="testSetup" classname="edu.coursera.concurrent.SetupTest" time="0.014"/>
+  <testcase name="testSetup" classname="edu.coursera.concurrent.SetupTest" time="0.017"/>
 </testsuite>
